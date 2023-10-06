@@ -1,0 +1,57 @@
+.rowlight{
+    margin-bottom: 16px;
+    padding:  32px ;
+    background: linear-gradient(90deg, #71d2ff, #ffbef6);
+    text-align: justify;
+}
+.rowblack{
+    margin-bottom: 16px;
+    padding: 32px;
+    background: rgb(39, 39, 39); 
+    text-align: justify;
+    color: rgb(207, 204, 204);
+}
+.rownone{
+    margin: 0px;
+    padding: 0px;
+    background: white; 
+    text-align: justify;
+}
+.athor{
+    margin: 16px;
+    padding: 32px;
+    background: linear-gradient(90deg, #71d2ff, #ffbef6); 
+    text-align: justify;
+}
+.add{
+    text-align: center;
+}
+a{
+    color:#a519aa;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+table{
+    border: 1px solid grey;
+    width: 75%;
+    background-color: #ffbef6;
+    text-align: center;
+    padding: 10px;
+}   
+td{
+    border: 1px solid grey;
+}
+.imgcarousel{
+    height: 650px;
+    object-fit: cover;
+} 
+.bordered{
+    background-color: rgb(221, 239, 255);
+    padding: 32px;
+    border-radius: 10px;
+    color: black;
+}

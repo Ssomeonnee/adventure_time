@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/static/иконка финн.png" style="border-radius: 0.5rem;" width="60px" height="50px" alt="Финн"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        {% for item in nav %}
+          <li class="nav-item">
+            <a class="nav-link {% if item.title == name %}active{% endif %}" aria-current="page" href="{{ item.URL }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+<hr>
+
+<style>
+    .active{
+        background-color: #ebb4f8;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgb(143, 89, 89);
+    }
+</style>
